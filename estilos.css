@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    margin: auto;
+}
+
+/* Header & Nav */
+
+.header{
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid black;
+    box-shadow: 0 8px 10px rgba(66,66,66, .5);
+}
+
+.header_logo{
+    width: 100px;
+    margin: -40px 80px;
+    
+}
+
+.nav_items{
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-right: -220px;
+    margin-left: 250px;
+    color: black;
+}
+
+.nav_logo{
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 250px;
+    color: black;
+}
+
+.header2{
+    display: flex;
+    height: 593px;
+    align-items: center;
+    color: black;
+}
+
+.header_text{
+    width: 80%;
+    margin-bottom: 50px;
+    margin-left: 75px;
+}
+
+.header_subtitle{
+    margin-right: 5%;
+    font-size: 1.1em;
+    padding-bottom: 2%;
+}
+
+.header_title{
+    font-size: 3.2rem;
+    text-shadow: 0 8px 10px rgba(66,66,66, .5);
+    transition: 1s step-start;
+    padding-bottom: 3%;
+}
+
+.header_cta{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 68, 0);
+}
+
+.header_cta:hover{
+    background-color: rgb(209, 57, 1);
+    transition: 1s;
+}
+
+.header_img{
+    display: flex;
+    position: relative;
+    padding: 10px;
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+}
+
+.nav_items:hover{
+    padding-bottom: 10px;
+}
+
+.nav_items:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.main_fotos{
+    display: flex;
+    justify-content: center;
+}
+
+.main_fotos img{
+    margin: 60px 20px;
+    width: 270px;
+    height: 320px;
+    border: 2px solid black;
+    border-radius: 10px;
+    filter: grayscale(100);
+}
+
+.img:hover{
+    filter: grayscale(0);
+    transition: 0.8s;
+}
+
+.contenido{
+    background-color: rgb(236, 236, 236);
+}
+
+/* Featured Products */
+
+.main_titulo{
+    color: rgb(78, 78, 78);
+    text-align: center;
+    margin-top: 2%;
+}
+
+.icono{
+    color: orangered;
+}
+
+/* Products */
+
+.products{
+    display: flex;
+    margin-top: 7%;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.product1{
+    color: rgb(51, 51, 51);
+    box-shadow: 0 8px 10px rgba(66,66,66, .5);
+    padding: 2% 2%;
+    margin-left: -5%;
+    margin-right: 2%;
+}
+
+.product2{
+    color: rgb(51, 51, 51);
+    position: relative;
+    box-shadow: 0 8px 10px rgba(66,66,66, .5);
+    padding: 2% 2%;
+    margin-right: 2%;
+}
+
+.product3{
+    color: rgb(51, 51, 51);
+    position: relative;
+    box-shadow: 0 8px 10px rgba(66,66,66, .5);
+    padding: 2% 2%;
+}
+
+.product{
+    width: 250px;
+    height: 300px;
+}
+
+.product_subtitle{
+    font-size: 1.1em;
+    color: rgb(51, 51, 51);
+}
+
+.stars{
+    color: orangered;
+}
+
+.price{
+    font-size: 1em;
+    color: rgb(51, 51, 51);
+}
+
+.product1:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+    transition: 1s;
+    background-color: rgb(230, 227, 227);
+}
+
+.product2:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+    transition: 1s;
+    background-color: rgb(230, 227, 227);
+}
+
+.product3:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+    transition: 1s;
+    background-color: rgb(230, 227, 227);
+}
+
+/* Latest Products */
+
+.main_titulo2{
+    color: rgb(78, 78, 78);
+    text-align: center;
+    margin-top: 10%;
+}
+
+/* Products */
+
+.primeros3{
+    margin-top: 7%;
+    display: flex;
+    position: relative;
+}
+
+.otros3{
+    display: flex;
+    position: relative;
+    margin-top: 3%;
+}
+
+.product5{
+    color: rgb(51, 51, 51);
+    box-shadow: 0 8px 10px rgba(66,66,66, .5);
+    padding: 2% 2%;
+    margin-left: 5%;
+    margin-right: -3%;
+}
+
+.product6{
+    color: rgb(51, 51, 51);
+    box-shadow: 0 8px 10px rgba(66,66,66, .5);
+    padding: 2% 2%;
+    margin-left: 5%;
+    margin-right: -3%;
+}
+
+.product7{
+    color: rgb(51, 51, 51);
+    box-shadow: 0 8px 10px rgba(66,66,66, .5);
+    padding: 2% 2%;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+.product8{
+    color: rgb(51, 51, 51);
+    box-shadow: 0 8px 10px rgba(66,66,66, .5);
+    padding: 2% 2%;
+    margin-left: 5%;
+    margin-right: -3%;
+}
+
+.product9{
+    color: rgb(51, 51, 51);
+    box-shadow: 0 8px 10px rgba(66,66,66, .5);
+    padding: 2% 2%;
+    margin-left: 5%;
+    margin-right: -3%;
+}
+
+.product10{
+    color: rgb(51, 51, 51);
+    box-shadow: 0 8px 10px rgba(66,66,66, .5);
+    padding: 2% 2%;
+    margin-left: 5%;
+    margin-right: -3%;
+}
+
+.product5:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+    transition: 1s;
+    background-color: rgb(230, 227, 227);
+}
+
+.product6:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+    transition: 1s;
+    background-color: rgb(230, 227, 227);
+}
+
+.product7:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+    transition: 1s;
+    background-color: rgb(230, 227, 227);
+}
+
+.product8:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+    transition: 1s;
+    background-color: rgb(230, 227, 227);
+}
+
+.product9:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+    transition: 1s;
+    background-color: rgb(230, 227, 227);
+}
+
+.product10:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+    transition: 1s;
+    background-color: rgb(230, 227, 227);
+}
+
+/* Exclusive */
+
+.apartado{
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    margin-top: 5%;
+    box-shadow: 0 10px 20px rgba(66,66,66, .5);
+}
+
+.exclusive{
+    display: flex;
+    padding-top: 8%;
+    padding-left: 14%;
+    padding-bottom: 8%;
+}
+
+.reloj{
+    width: 350px;
+    height: 350px;
+    margin-left: -10%;
+}
+
+.exclusive_subtitle{
+    font-size: 1em;
+    padding-right: 10%;
+    padding-top: 4%;
+    line-height: 1.5em;
+    padding-bottom: 3%;
+    margin-top: 10%;
+    color: black;
+}
+
+.exclusive_title{
+    font-size: 3.5em;
+    color: black;
+    font-weight: bold;
+}
+
+.exclusive_subtitle2{
+    font-size: 1.1em;
+    padding-right: 10%;
+    padding-top: 4%;
+    line-height: 1.5em;
+    padding-bottom: 6%;
+    color: black;
+}
+
+.exclusive_btn{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 2% 5.5%;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.exclusive_btn:hover{
+    background-color: rgb(100, 27, 0);
+    transition: 1s;
+}
+
+/* Citas */
+
+.citas{
+    display: flex;
+    margin-top: 10%;
+}
+
+.cita{
+    background-color: rgb(245, 245, 245);
+    border-radius: 10%;
+    padding: 3% 3%;
+    margin: 0% 2%;
+    box-shadow: 0 8px 10px rgba(66,66,66, .5);
+}
+
+.message{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.cita_icono{
+    text-align: center;
+    color: orangered;
+    font-size: 2em;
+}
+
+.citastars{
+    text-align: center;
+    color: orangered;
+    margin-top: 5%;
+}
+
+.user{
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 67px;
+    border: 3px solid orangered;
+    margin-top: 5%;
+}
+
+.name{
+    text-align: center;
+    font-size: 1em;
+}
+
+/* Publicidad */
+
+.logospublicidad{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.logo{
+    cursor: pointer;
+    filter: grayscale(100);
+}
+
+.logo:hover{
+    filter: grayscale(0);
+    transition: 0.5s;
+}
+
+/* Footer */
+
+.footer{
+    background-color: black;
+    color: #fff;
+}
+
+.footer_container{
+    display: flex;
+}
+
+/* App Phone */
+
+.app{
+    padding-left: 5%;
+    margin-top: 5%;
+}
+
+.app_title{
+    font-size: 1.1em;
+    padding-bottom: 20px;
+    padding-top: 5%;
+}
+
+.app_subtitle{
+    font-size: small;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.appfoto{
+    width: 130px;
+    height: 35px;
+    cursor: pointer;
+    display: flexbox;
+}
+
+/* Objetivo Mango */
+
+.footer_mango{
+    margin-top: 5%;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.logomango{
+    width: 120px;
+    height: 60px;
+    background-color: white;
+    margin-right: 180px;
+}
+
+.mango_subtitle{
+    font-size: 0.7em;
+    padding-right: 40%;
+    margin-top: 2%;  
+    color: gray;
+}
+
+/* Links útiles */
+
+.lista1{
+    margin-top: 5%;
+    margin-left: -20%;
+    text-align: center;
+}
+
+.titulo_lista{
+    font-size: 1.2em;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+ul{ 
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+    color: gray;
+}
+
+/* Redes Sociales */
+
+.lista2{
+    margin-top: 5%;
+    margin-left: 9%;
+    text-align: center;
+}
+
+/* Copyright */
+
+.copyright{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 0.5em;
+}
